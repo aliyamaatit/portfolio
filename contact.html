@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Aliya Maatit - Contact</title>
+</head>
+
+<body>
+    <!-- En-tête -->
+    <header class="header">
+        <nav>
+            <a href="index.html">
+                <img src="image/logo.png" alt="Logo Aliya Maatit">
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#profil">Profil</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="projet.html">Projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Me contacter</h1>
+        </div>
+    </header>
+
+    <!-- Formulaire de contact -->
+    <main>
+        <section class="contact-section">
+            <h1>Me Contacter</h1>
+            <div class="separation"></div>
+            <form action="#" method="post">
+                <div class="corps-formulaire">
+                    <div class="gauche">
+                        <div class="boite">
+                            <label for="prenom">Votre prénom</label>
+                            <input type="text" id="prenom" name="prenom" class="champ" placeholder="Entrez votre prénom" required>
+                        </div>
+                        <div class="boite">
+                            <label for="email">Votre adresse e-mail</label>
+                            <input type="email" id="email" name="email" class="champ" placeholder="Entrez votre email" required>
+                        </div>
+                        <div class="boite">
+                            <label for="telephone">Votre téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" class="champ" placeholder="Entrez votre numéro" required>
+                        </div>
+                    </div>
+                    <div class="droite">
+                        <div class="boite">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Saisissez votre message ici..." required></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pied-formulaire">
+                    <button type="submit">Envoyer le message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <h3>Aliya Maatit</h3>
+        <a href="mailto:aliya.maatit@outlook.com">aliya.maatit@outlook.com</a>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/aliya-maatit-a68162297" target="_blank">
+                <img src="image/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+        <p>&copy; 2025 Aliya Maatit | Étudiante en Réseaux et Télécommunications</p>
+    </footer>
+</body>
+
+</html>
